@@ -736,3 +736,45 @@
 2021-09-29 10:20:37,866 [Worker-13: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
 2021-09-29 10:20:37,869 [Worker-13: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-09-29 10:20:37,870 [Worker-13: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/kurodashotaro/Desktop/copyofdemo/src/test/resources
+2021-09-29 10:29:54,332 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-09-29 10:30:26,547 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-09-29 10:30:34,474 [Worker-1: copyofdemo の起動] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/kurodashotaro/Desktop/copyofdemo
+2021-09-29 10:30:34,479 [Worker-1: copyofdemo の起動] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B 
+2021-09-29 10:36:02,263 [Worker-2: Maven プロジェクトのインポート中] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ /Users/kurodashotaro/Desktop/copyofdemo/pom.xml.
+2021-09-29 10:36:03,749 [Worker-2: Maven プロジェクトのインポート中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2021-09-29 10:36:03,751 [Worker-2: Maven プロジェクトのインポート中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2021-09-29 10:36:03,751 [Worker-2: Maven プロジェクトのインポート中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2021-09-29 10:36:03,753 [Worker-2: Maven プロジェクトのインポート中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2021-09-29 10:36:04,299 [Worker-2: Maven プロジェクトのインポート中] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2021-09-29 10:36:05,784 [Worker-2: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-29 10:36:05,790 [Worker-2: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-29 10:36:05,815 [Worker-2: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-29 10:36:05,837 [Worker-2: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-29 10:36:05,840 [Worker-2: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/kurodashotaro/Desktop/copyofdemo/src/test/resources
+2021-09-29 10:43:30,968 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-09-29 10:44:42,492 [Worker-8: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-29 10:44:42,503 [Worker-8: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-29 10:44:42,539 [Worker-8: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-29 10:44:42,555 [Worker-8: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-29 10:44:42,557 [Worker-8: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/kurodashotaro/Desktop/copyofdemo/src/test/resources
+2021-09-29 10:44:49,825 [Worker-8: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-29 10:44:49,829 [Worker-8: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-29 10:44:49,832 [Worker-8: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-29 10:44:49,835 [Worker-8: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-29 10:44:49,835 [Worker-8: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/kurodashotaro/Desktop/copyofdemo/src/test/resources
+2021-09-29 10:45:03,889 [Worker-6: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-29 10:45:03,890 [Worker-6: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-29 10:45:03,892 [Worker-6: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-29 10:45:03,895 [Worker-6: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-29 10:45:03,895 [Worker-6: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/kurodashotaro/Desktop/copyofdemo/src/test/resources
+2021-09-29 10:45:14,154 [Worker-6: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-29 10:45:14,155 [Worker-6: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-29 10:45:14,157 [Worker-6: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-29 10:45:14,165 [Worker-6: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-29 10:45:14,165 [Worker-6: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/kurodashotaro/Desktop/copyofdemo/src/test/resources
+2021-09-29 10:51:35,691 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-09-29 10:51:50,471 [Worker-0: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-29 10:51:50,486 [Worker-0: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-29 10:51:50,525 [Worker-0: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-29 10:51:50,533 [Worker-0: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-29 10:51:50,533 [Worker-0: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/kurodashotaro/Desktop/copyofdemo/src/test/resources
