@@ -5200,3 +5200,365 @@ java.net.ConnectException: Connection refused (Connection refused)
 2021-09-28 00:05:24.843 INFO  [Thread-1] - Unregistering JMX-exposed beans 
 2021-09-28 00:05:24.845 INFO  [Thread-1] - Unregistering JMX-exposed beans on shutdown 
 2021-09-28 00:05:24.853 INFO  [Thread-1] - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-09-29 15:33:47.273 INFO  [main] - Starting App on kurodawatarutarounoMacBook-Air.local with PID 2759 (/Users/kurodashotaro/Desktop/CafeOfYI/SerchSystem/actor-search-example-master/target/classes started by kurodashotaro in /Users/kurodashotaro/Desktop/CafeOfYI/SerchSystem/actor-search-example-master) 
+2021-09-29 15:33:47.276 DEBUG [main] - Running with Spring Boot v1.2.5.RELEASE, Spring v4.1.7.RELEASE 
+2021-09-29 15:33:47.310 INFO  [main] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ab3a8c8: startup date [Wed Sep 29 15:33:47 JST 2021]; root of context hierarchy 
+2021-09-29 15:33:48.289 DEBUG [main] - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2021-09-29 15:33:48.447 INFO  [main] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ffe539ec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2021-09-29 15:33:48.465 INFO  [main] - Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2021-09-29 15:33:48.470 INFO  [main] - Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2021-09-29 15:33:48.473 INFO  [main] - Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2021-09-29 15:33:48.860 INFO  [main] - Tomcat initialized with port(s): 9000 (http) 
+2021-09-29 15:33:48.961 INFO  [main] - Starting service Tomcat 
+2021-09-29 15:33:48.962 INFO  [main] - Starting Servlet Engine: Apache Tomcat/8.0.23 
+2021-09-29 15:33:49.048 INFO  [localhost-startStop-1] - Initializing Spring embedded WebApplicationContext 
+2021-09-29 15:33:49.048 INFO  [localhost-startStop-1] - Root WebApplicationContext: initialization completed in 1739 ms 
+2021-09-29 15:33:49.782 INFO  [localhost-startStop-1] - Mapping servlet: 'dispatcherServlet' to [/] 
+2021-09-29 15:33:49.785 INFO  [localhost-startStop-1] - Mapping filter: 'metricFilter' to: [/*] 
+2021-09-29 15:33:49.786 INFO  [localhost-startStop-1] - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2021-09-29 15:33:49.786 INFO  [localhost-startStop-1] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2021-09-29 15:33:49.786 INFO  [localhost-startStop-1] - Mapping filter: 'webRequestLoggingFilter' to: [/*] 
+2021-09-29 15:33:49.786 INFO  [localhost-startStop-1] - Mapping filter: 'applicationContextIdFilter' to: [/*] 
+2021-09-29 15:33:49.993 INFO  [main] - Building JPA container EntityManagerFactory for persistence unit 'default' 
+2021-09-29 15:33:50.453 ERROR [main] - Unable to create initial connections of pool. 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_202]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_202]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_202]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_202]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:338) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2237) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2270) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2069) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_202]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_202]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_202]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_202]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:307) ~[tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:200) ~[tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:699) [tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:633) [tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:484) [tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:142) [tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:115) [tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:102) [tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:126) [tomcat-jdbc-8.0.23.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139) [hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcServicesImpl.java:279) [hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:124) [hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:111) [hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:234) [hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:206) [hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.cfg.Configuration.buildTypeRegistrations(Configuration.java:1887) [hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1845) [hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:857) [hibernate-entitymanager-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850) [hibernate-entitymanager-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425) [hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849) [hibernate-entitymanager-4.3.10.Final.jar:4.3.10.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60) [spring-orm-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:343) [spring-orm-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:318) [spring-orm-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1633) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:956) [spring-context-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:747) [spring-context-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480) [spring-context-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118) [spring-boot-1.2.5.RELEASE.jar:1.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:686) [spring-boot-1.2.5.RELEASE.jar:1.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320) [spring-boot-1.2.5.RELEASE.jar:1.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:957) [spring-boot-1.2.5.RELEASE.jar:1.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:946) [spring-boot-1.2.5.RELEASE.jar:1.2.5.RELEASE]
+	at com.example.actor.App.main(App.java:11) [classes/:na]
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_202]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_202]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_202]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:213) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:297) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	... 53 common frames omitted
+2021-09-29 15:33:50.926 ERROR [main] - Unable to create initial connections of pool. 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_202]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_202]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_202]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_202]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:338) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2237) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2270) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2069) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_202]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_202]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_202]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_202]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:307) ~[tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:200) ~[tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:699) [tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:633) [tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:484) [tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:142) [tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:115) [tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:102) [tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:126) [tomcat-jdbc-8.0.23.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139) [hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:51) [hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:219) [hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:203) [hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:522) [hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1859) [hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:857) [hibernate-entitymanager-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850) [hibernate-entitymanager-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425) [hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849) [hibernate-entitymanager-4.3.10.Final.jar:4.3.10.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60) [spring-orm-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:343) [spring-orm-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:318) [spring-orm-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1633) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:956) [spring-context-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:747) [spring-context-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480) [spring-context-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118) [spring-boot-1.2.5.RELEASE.jar:1.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:686) [spring-boot-1.2.5.RELEASE.jar:1.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320) [spring-boot-1.2.5.RELEASE.jar:1.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:957) [spring-boot-1.2.5.RELEASE.jar:1.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:946) [spring-boot-1.2.5.RELEASE.jar:1.2.5.RELEASE]
+	at com.example.actor.App.main(App.java:11) [classes/:na]
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_202]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_202]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_202]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:213) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:297) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	... 51 common frames omitted
+2021-09-29 15:33:50.930 ERROR [main] - HHH000319: Could not get database metadata 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_202]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_202]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_202]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_202]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:338) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2237) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2270) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2069) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_202]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_202]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_202]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_202]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:307) ~[tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:200) ~[tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:699) ~[tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:633) ~[tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:484) ~[tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:142) ~[tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:115) ~[tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:102) ~[tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:126) ~[tomcat-jdbc-8.0.23.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139) ~[hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:51) ~[hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:219) ~[hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:203) ~[hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:522) ~[hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1859) ~[hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:857) [hibernate-entitymanager-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850) [hibernate-entitymanager-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425) [hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849) [hibernate-entitymanager-4.3.10.Final.jar:4.3.10.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60) [spring-orm-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:343) [spring-orm-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:318) [spring-orm-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1633) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:956) [spring-context-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:747) [spring-context-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480) [spring-context-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118) [spring-boot-1.2.5.RELEASE.jar:1.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:686) [spring-boot-1.2.5.RELEASE.jar:1.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320) [spring-boot-1.2.5.RELEASE.jar:1.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:957) [spring-boot-1.2.5.RELEASE.jar:1.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:946) [spring-boot-1.2.5.RELEASE.jar:1.2.5.RELEASE]
+	at com.example.actor.App.main(App.java:11) [classes/:na]
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_202]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_202]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_202]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:213) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:297) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	... 51 common frames omitted
+2021-09-29 15:33:50.935 ERROR [main] - HHH000299: Could not complete schema update 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_202]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_202]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_202]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_202]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:338) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2237) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2270) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2069) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_202]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_202]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_202]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_202]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:307) ~[tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:200) ~[tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:699) ~[tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:633) ~[tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:484) ~[tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:142) ~[tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:115) ~[tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:102) ~[tomcat-jdbc-8.0.23.jar:na]
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:126) ~[tomcat-jdbc-8.0.23.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139) ~[hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:51) ~[hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:219) ~[hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:203) ~[hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:522) ~[hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1859) ~[hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:857) [hibernate-entitymanager-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850) [hibernate-entitymanager-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425) [hibernate-core-4.3.10.Final.jar:4.3.10.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849) [hibernate-entitymanager-4.3.10.Final.jar:4.3.10.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60) [spring-orm-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:343) [spring-orm-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:318) [spring-orm-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1633) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:956) [spring-context-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:747) [spring-context-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480) [spring-context-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118) [spring-boot-1.2.5.RELEASE.jar:1.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:686) [spring-boot-1.2.5.RELEASE.jar:1.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320) [spring-boot-1.2.5.RELEASE.jar:1.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:957) [spring-boot-1.2.5.RELEASE.jar:1.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:946) [spring-boot-1.2.5.RELEASE.jar:1.2.5.RELEASE]
+	at com.example.actor.App.main(App.java:11) [classes/:na]
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_202]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_202]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_202]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:213) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:297) ~[mysql-connector-java-5.1.35.jar:5.1.35]
+	... 51 common frames omitted
+2021-09-29 15:33:51.448 INFO  [main] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ab3a8c8: startup date [Wed Sep 29 15:33:47 JST 2021]; root of context hierarchy 
+2021-09-29 15:33:51.506 INFO  [main] - Mapped "{[/simple/],methods=[GET]}" onto public java.lang.String com.example.actor.web.SimpleController.index(com.example.actor.web.SimpleForm,org.springframework.ui.Model) 
+2021-09-29 15:33:51.506 INFO  [main] - Mapped "{[/simple/confirm],methods=[POST]}" onto public java.lang.String com.example.actor.web.SimpleController.confirm(com.example.actor.web.SimpleForm,org.springframework.validation.BindingResult,org.springframework.ui.Model) 
+2021-09-29 15:33:51.507 INFO  [main] - Mapped "{[/error/404]}" onto public java.lang.String com.example.actor.web.ErrorController.error404() 
+2021-09-29 15:33:51.507 INFO  [main] - Mapped "{[/error/500]}" onto public java.lang.String com.example.actor.web.ErrorController.error500() 
+2021-09-29 15:33:51.507 INFO  [main] - Mapped "{[/actor/{id}],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.example.actor.web.ActorController.detail(java.lang.Integer) 
+2021-09-29 15:33:51.507 INFO  [main] - Mapped "{[/actor],methods=[GET]}" onto public java.lang.String com.example.actor.web.ActorController.index(org.springframework.ui.Model) 
+2021-09-29 15:33:51.508 INFO  [main] - Mapped "{[/actor/delete/{id}],methods=[GET]}" onto public java.lang.String com.example.actor.web.ActorController.delete(java.lang.Integer,org.springframework.web.servlet.mvc.support.RedirectAttributes,org.springframework.ui.Model) 
+2021-09-29 15:33:51.508 INFO  [main] - Mapped "{[/actor/create],methods=[GET]}" onto public java.lang.String com.example.actor.web.ActorController.create(com.example.actor.web.ActorForm,org.springframework.ui.Model) 
+2021-09-29 15:33:51.508 INFO  [main] - Mapped "{[/actor/save],methods=[POST]}" onto public java.lang.String com.example.actor.web.ActorController.save(com.example.actor.web.ActorForm,org.springframework.validation.BindingResult,org.springframework.ui.Model) 
+2021-09-29 15:33:51.508 INFO  [main] - Mapped "{[/actor/search],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.example.actor.web.ActorController.search(java.lang.String) 
+2021-09-29 15:33:51.509 INFO  [main] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest) 
+2021-09-29 15:33:51.509 INFO  [main] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+2021-09-29 15:33:51.527 INFO  [main] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2021-09-29 15:33:51.527 INFO  [main] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2021-09-29 15:33:51.556 INFO  [main] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2021-09-29 15:33:51.927 INFO  [main] - Mapped "{[/dump],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke() 
+2021-09-29 15:33:51.927 INFO  [main] - Mapped "{[/info],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke() 
+2021-09-29 15:33:51.927 INFO  [main] - Mapped "{[/configprops],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke() 
+2021-09-29 15:33:51.928 INFO  [main] - Mapped "{[/beans],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke() 
+2021-09-29 15:33:51.928 INFO  [main] - Mapped "{[/mappings],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke() 
+2021-09-29 15:33:51.928 INFO  [main] - Mapped "{[/metrics/{name:.*}],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String) 
+2021-09-29 15:33:51.928 INFO  [main] - Mapped "{[/metrics],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke() 
+2021-09-29 15:33:51.928 INFO  [main] - Mapped "{[/trace],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke() 
+2021-09-29 15:33:51.928 INFO  [main] - Mapped "{[/autoconfig],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke() 
+2021-09-29 15:33:51.929 INFO  [main] - Mapped "{[/env/{name:.*}],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String) 
+2021-09-29 15:33:51.929 INFO  [main] - Mapped "{[/env],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke() 
+2021-09-29 15:33:51.929 INFO  [main] - Mapped "{[/health]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal) 
+2021-09-29 15:33:51.965 INFO  [main] - Registering beans for JMX exposure on startup 
+2021-09-29 15:33:51.969 INFO  [main] - Registering beans for JMX exposure on startup 
+2021-09-29 15:33:51.973 INFO  [main] - Starting beans in phase 0 
+2021-09-29 15:33:51.976 INFO  [main] - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint] 
+2021-09-29 15:33:51.995 INFO  [main] - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint] 
+2021-09-29 15:33:51.999 INFO  [main] - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint] 
+2021-09-29 15:33:52.002 INFO  [main] - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint] 
+2021-09-29 15:33:52.005 INFO  [main] - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint] 
+2021-09-29 15:33:52.008 INFO  [main] - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint] 
+2021-09-29 15:33:52.011 INFO  [main] - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint] 
+2021-09-29 15:33:52.013 INFO  [main] - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint] 
+2021-09-29 15:33:52.017 INFO  [main] - Located managed bean 'autoConfigurationAuditEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationAuditEndpoint] 
+2021-09-29 15:33:52.019 INFO  [main] - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint] 
+2021-09-29 15:33:52.043 INFO  [main] - Initializing ProtocolHandler ["http-nio-9000"] 
+2021-09-29 15:33:52.050 INFO  [main] - Starting ProtocolHandler ["http-nio-9000"] 
+2021-09-29 15:33:52.075 INFO  [main] - Using a shared selector for servlet write/read 
+2021-09-29 15:33:52.091 INFO  [main] - Tomcat started on port(s): 9000 (http) 
+2021-09-29 15:33:52.093 INFO  [main] - Started App in 5.083 seconds (JVM running for 5.821) 
+2021-09-29 15:41:26.457 INFO  [Thread-1] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ab3a8c8: startup date [Wed Sep 29 15:33:47 JST 2021]; root of context hierarchy 
+2021-09-29 15:41:26.460 INFO  [Thread-1] - Stopping beans in phase 0 
+2021-09-29 15:41:26.464 INFO  [Thread-1] - Unregistering JMX-exposed beans on shutdown 
+2021-09-29 15:41:26.464 INFO  [Thread-1] - Unregistering JMX-exposed beans 
+2021-09-29 15:41:26.465 INFO  [Thread-1] - Unregistering JMX-exposed beans on shutdown 
+2021-09-29 15:41:26.468 INFO  [Thread-1] - Closing JPA EntityManagerFactory for persistence unit 'default' 
