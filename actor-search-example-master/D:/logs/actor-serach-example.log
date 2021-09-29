@@ -5194,3 +5194,9 @@ java.net.ConnectException: Connection refused (Connection refused)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_202]
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.0.23.jar:8.0.23]
 	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_202]
+2021-09-28 00:05:24.821 INFO  [Thread-1] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ab3a8c8: startup date [Mon Sep 27 22:33:49 JST 2021]; root of context hierarchy 
+2021-09-28 00:05:24.833 INFO  [Thread-1] - Stopping beans in phase 0 
+2021-09-28 00:05:24.842 INFO  [Thread-1] - Unregistering JMX-exposed beans on shutdown 
+2021-09-28 00:05:24.843 INFO  [Thread-1] - Unregistering JMX-exposed beans 
+2021-09-28 00:05:24.845 INFO  [Thread-1] - Unregistering JMX-exposed beans on shutdown 
+2021-09-28 00:05:24.853 INFO  [Thread-1] - Closing JPA EntityManagerFactory for persistence unit 'default' 
