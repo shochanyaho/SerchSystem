@@ -1330,3 +1330,5 @@ org.eclipse.debug.core.DebugException: file:/Users/kurodashotaro/Desktop/CafeOfY
 2021-09-29 16:34:39,903 [Worker-72: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
 2021-09-29 16:34:39,910 [Worker-72: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-09-29 16:34:39,910 [Worker-72: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/kurodashotaro/Desktop/CafeOfYI/SerchSystem/actor-search-example-master/src/test/resources
+2021-10-01 23:40:09,736 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-10-01 23:46:48,069 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
