@@ -6,8 +6,11 @@
     <title>メニュー画面</title>
 </head>
 <body>
+	<!--Ayako1  ”こんにちは”を”メニュー画面”に変更 -->
 <h2>こんにちは</h2>
 <div th:fragment="logout" sec:authorize="isAuthenticated()">
+	<!--Ayako2  "こんにちは:" "mail:" "権限:"を削除し、メニューボタンを追加 -->
+	<!--Ayako3 メニューボタン押下時の遷移先URLを追加  -->
     <p>こんにちは:
         <span sec:authentication="name"></span>さん</p>
     <p>mail:
@@ -17,6 +20,7 @@
     <form action="#" th:action="@{/logout}" method="post">
         <input type="submit" value="ログアウト" />
     </form>
+
 </div>
 </body>
 </html>
