@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 //問４－１ コントローラーを意味するアノテーションを記述
+//shotaro 1 login でなく  検索一覧の画面や後々だが商品の画面へ飛ぶように設定。
 @Controller
 public class AuthController {
 

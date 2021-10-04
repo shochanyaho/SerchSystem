@@ -18,6 +18,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     private AccountService userService;
 
     @Override
+    //shotaro 1 login とかでなく検索名に変更する
     protected void configure(HttpSecurity http) throws Exception {
         http
         .authorizeRequests()
@@ -30,7 +31,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
 
     //変更点 ロード時に、「admin」ユーザを登録する。
+    //shotaro 2 商品を登録
     @Override
+
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         auth
         .userDetailsService(userService)

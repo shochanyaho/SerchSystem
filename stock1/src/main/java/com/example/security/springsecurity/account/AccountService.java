@@ -23,6 +23,7 @@ public class AccountService implements UserDetailsService {
  private List<Account> result;
 
  @Override
+ //shotaro 1 ここをuser ではなく 商品についてのエラー処理にする。
  public Account loadUserByUsername(String username) throws UsernameNotFoundException {
   if (username == null || "".equals(username)) {
    throw new UsernameNotFoundException("Username is empty");

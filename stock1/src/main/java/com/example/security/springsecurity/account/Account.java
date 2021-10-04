@@ -26,18 +26,22 @@ import org.springframework.security.core.userdetails.UserDetails;
 //実行時に宣言した各フィールド変数がカラムとして作成される
 //問１－１ DB設計に必要なアノテーションを記述
 @Entity
+//shotaro 1 accounts ではなく 在庫商品のテーブルをセット
 @Table(name = "accounts")
 public class Account implements UserDetails {
 
  private static final long serialVersionUID = 1L;
 
  // 権限は一般ユーザ、マネージャ、システム管理者の３種類とする
+ //shotaro 2 権限でなく 在庫商品名の"変数"をセット
  public enum Authority {
   ROLE_USER, ROLE_MANAGER, ROLE_ADMIN
  }
 
  // 問１－２ プライマリーキーを設定するアノテーションを記述
+ //
  @Id
+ //shotaro 3 ここのカラムには商品の名前(itemnameなど)を入れたほうがいいと思います。
  @Column(nullable = false, unique = true)
  private String username;
 
